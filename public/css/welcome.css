@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 7vh 0;
+    background: radial-gradient(circle, rgba(36,36,36,1) 35%, rgba(0,0,0,1) 90%);
+    text-align: center;
+
+    #textContainer{
+        display: flex;
+        justify-content: center;
+
+        p{
+            width: 600px;
+            min-width: 300px;
+        }
+    }
+
+    h2{
+        color: #ffffff;
+        font-family: 'Bebas Neue';
+    }
+}
+
+svg{
+    margin-bottom: 5vh;
+}
+
+#title{
+    min-width: 20%;
+    display: inline-block;
+    border-bottom: 2px solid #bebebe;
+}
+
+
+#guns-bg{
+    height: 200px;
+    margin-bottom: 5vh;
+}
+
+.text{
+    margin-top: 5vh;
+    font-size: 1.2rem;
+}
+
+a {
+    text-decoration: none;
+    background-color: #ff0000;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    background-color: #cc0000;
+}

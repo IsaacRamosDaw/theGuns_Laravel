@@ -1,0 +1,33 @@
+.text{
+    padding: 2vh 8vh;
+    text-align: center;
+    line-height: 3vh;
+    color: #ffffff;
+    font-family: 'Prompt';
+}
+
+#buttonContainer {
+    display: grid;
+    place-items: center;
+
+    button {
+        background-color: #ff0000;
+        color: #ffffff;
+        border: none;
+        border-radius: 5px;
+        padding: 10px;
+        cursor: pointer;
+        width: 70%;
+        transition: background-color 0.3s;
+        font-size: 2rem;
+        margin: 4%;
+        font-family: "Blinker", sans-serif;
+    }
+
+    button:hover {
+        background-color: #ac0101;
+    }
+}
+
+
+
